@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Choco-Latte</title>
+    <link rel="stylesheet" href="./stil/style.css">
+</head>
+<body>
+    <main>
+        <h1>Café Choco-Latte</h1>
+        <section>
+            <h2>Fantastikst kaffe & läckra bakverk</h2>
+            <p>
+                Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet när du kliver in genom dörren. Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.  Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna. 
+            </p>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="Chokladprovning.html">Chokladprovning</a></li>
+                    <ul>
+                        <li><a href="Bokning.html">Boka Chokladprovning</a></li>
+                    </ul>
+                <li><a href="OmTräd.html">Om Kakoträdet</a></li>
+            </ul>
+        </section>
+        <article>
+            <h2>Boka Chokladprovning</h2>
+
+                <form action="#">
+                    <section>
+                        <p>Välj datum</p>
+                        <input type="radio" id="30_april" name="date" value="30_april">
+                        <label for="30_april">30 maj</label><br>
+                        <input type="radio" id="2_maj" name="date" value="2_maj">
+                        <label for="2_maj">2 maj</label><br>
+                        <input type="radio" id="7_maj" name="date" value="7_maj">
+                        <label for="7_maj">7 maj</label><br>
+                        <input type="radio" id="9_maj" name="date" value="9_maj">
+                        <label for="9_maj">9 maj</label><br>
+                        <input type="radio" id="14_maj" name="date" value="14_maj">
+                        <label for="14_maj">14 maj</label><br>
+                        <input type="radio" id="16_maj" name="date" value="16_maj">
+                        <label for="16_maj">16 maj</label><br>
+                    </section>   
+
+                    <section>
+                        <p>Välj antal personer</p>
+                        <select name="persons" id="persons">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <p>Fyll i dina uppgifter</p>
+                        <label for="name">Namn</label>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"><br>
+                        <label for="text">Mobilnummer</label>
+                        <input type="number" name="number" id="number"><br>
+                        <label for="message">Meddelande</label>
+                        <input type="text" name="message" id="message">
+
+                    </section>
+                    
+                    <input type="submit" >
+                    
+                </form>
+        </article>
+
+      
+    </main>
+    <footer>
+        <p>© Copyright 2022 | Café Choco-Latte</p>
+    </footer>
+    
+</body>
+</html>
